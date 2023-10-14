@@ -81,7 +81,7 @@ def receive():
 
         ### Establish multi-chatting feature (multithreading) 
         thread = threading.Thread(target = handle_client, args=(client,))
-        thread.start
+        thread.start()
 
 
 ### Begin the Server program in certain order!
